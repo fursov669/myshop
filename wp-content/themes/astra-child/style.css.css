@@ -1,0 +1,61 @@
+/*
+Theme Name: Astra Child
+Template: astra
+Version: 1.0
+*/
+
+/* Фиксированное меню (Пункт 5) */
+.main-header-bar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Стили для главной (Пункт 6) */
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+.hero-section h1 { font-size: 48px; margin-bottom: 20px; }
+.hero-section p { font-size: 20px; margin-bottom: 30px; }
+.btn-shop {
+    background: #ff6b6b;
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.btn-shop:hover { background: #ee5253; color: white; }
+
+/* Стили для футера (Пункт 10) */
+.site-footer {
+    background: #222;
+    color: #aaa;
+    padding: 40px 20px;
+    text-align: center;
+}
+.site-footer a { color: #fff; margin: 0 10px; text-decoration: none; }
+.site-footer a:hover { color: #ff6b6b; }
+
+/* Пагинация новостей (Пункт 8) */
+.pagination {
+    text-align: center;
+    margin: 30px 0;
+}
+.pagination .page-numbers {
+    padding: 10px 15px;
+    margin: 0 5px;
+    background: #f0f0f0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.pagination .current {
+    background: #667eea;
+    color: white;
+}
